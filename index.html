@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="scoreboard">
+        <div class="score-title">Rock Paper Scissors</div>
+        <div class="scores">
+            Player: <span id="player-score">0</span> - Computer: <span id="computer-score">0</span>
+        </div>
+ 
+    </div>
+    <div class="instructions">
+        <p>Welcome to rock, paper, scissors! Please make your selection by clicking one of the buttons below.</p>
+    </div>
+
+    <div id="choice-container">
+        <div class="choice">
+            <button type="submit" id="rock">
+                <img src="./Images/rock.jpg"alt="rock"/> 
+            </button>
+        </div>
+
+        <div class="choice">
+            <button type="submit" id="paper">
+                <img src="./Images/paper.jpg" alt="paper"/> 
+            </button>
+        </div>
+        <div class="choice">
+            <button type="submit" id="scissors">
+                <img src="./Images/scissors.jpg" alt="scissors"/> 
+            </button>
+        </div>
+        
+       
+    </div>
+    <div class="response">
+
+    </div>
+    <div class="reset-play">
+        <button id="reset-button">Reset</button>
+        <!-- <button id="play-again-button">Play Again</button> -->
+    </div>
+    <!-- <script>
+        for(var i = 0; i < 5; i++){
+            getComputerChoice()
+        }
+       getComputerChoice()
+    </script> -->
+</body>
+</html>
